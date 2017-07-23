@@ -20,6 +20,9 @@ Preapre the following: <br />
 Connect the USB to Type B cable to the Arduino board and to your computer. Then. mount the Base Shield on top of the microcontroller board. Lastly, connect the gas sensor to the I2C port of the Base Shield.
 ![alt text](https://github.com/chanhyeoni/EatInTime/blob/master/Screen%20Shot%202017-07-23%20at%202.50.01%20PM.png)
 
+The wire diagram is as follows:
+
+
 ### Run the code
 Arduino<br />
 Go to the folder IntelHackArduino and open the sketch file. Then, upload the sketch.
@@ -35,5 +38,4 @@ You will see the input prompt message to type your phone number to receive the a
 	Enter your phone number (no '-') :    
 '''
 
-
-
+You may use any food container you like or have. Make sure the sensor connected to the board is inside the food container. And test it with both fresh food and the food that you would like to throw into garbage
