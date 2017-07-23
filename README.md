@@ -21,7 +21,7 @@ Connect the USB to Type B cable to the Arduino board and to your computer. Then.
 ![alt text](https://github.com/chanhyeoni/EatInTime/blob/master/Screen%20Shot%202017-07-23%20at%202.50.01%20PM.png)
 
 The wire diagram is as follows:
-
+![alt text](https://github.com/chanhyeoni/EatInTime/blob/master/Screen%20Shot%202017-07-23%20at%205.00.54%20PM.png)
 
 ### Run the code
 Arduino<br />
