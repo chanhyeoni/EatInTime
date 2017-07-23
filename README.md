@@ -27,19 +27,19 @@ Go to the folder IntelHackArduino and open the sketch file. Then, upload the ske
 Other software<br />
 Open the terminal or any window that you can type the command with. Run all the three shell scripts in a separate window. If for some reason a permission error pops up, type the following.
 
-'''
+```
 	chmod +x 'the name of the script file'
 	...
 	chmod +x apiEndPoint.sh
-''' 
+```
 
 run the script files as follows
 
-''' 
+```
 	./apiEndPoint.sh
 	./dataGrabber.sh #must run this in a separate terminal
 	./backgroundTask.sh #must run this in a separate terminal
-'''
+```
 
 
 
