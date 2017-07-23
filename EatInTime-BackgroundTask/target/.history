@@ -1,0 +1,12 @@
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+import org.scalaj
+import org.scalaj._
