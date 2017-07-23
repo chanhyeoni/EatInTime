@@ -57,7 +57,7 @@ class SparkAnalytics(appName: String, master: String, connectionString: String) 
 		* df (DataFrame) : the data in the format of DataFrame 
 		**/
 		val connStringwithTable = connectionString + "." + tableName		
-		val df  = sqlContext.loadFromMongoDB(ReadConfig(Map("uri" -> connStringwithTable))).fitler($"$date")
+		val df  = sqlContext.loadFromMongoDB(ReadConfig(Map("uri" -> connStringwithTable)))
 		// to do : give the most recent data --> how?
 
 		return df
@@ -93,7 +93,7 @@ class SparkAnalytics(appName: String, master: String, connectionString: String) 
 			(($"NH3" - minVal(6).asInstanceOf[Double]) / (maxVal(6).asInstanceOf[Double] - minVal(6).asInstanceOf[Double])),
 			(($"NO2" - minVal(7).asInstanceOf[Double]) / (maxVal(7).asInstanceOf[Double] - minVal(7).asInstanceOf[Double])),
 			$"date",
-			$"_id",
+			$"_id"
 			).toDF("C2H5OH", "C3H8", "C4H10", "CH4", "CO", "H2", "NH3", "NO2", "date", "_id")
 
 		// transform the data such that its column is now features and each row has a Vector of the data
@@ -143,7 +143,7 @@ class SparkAnalytics(appName: String, master: String, connectionString: String) 
 			val twillo = new TwilloAPI("ACfab4e5e91d80e6a7e5a75c46bae99557", "01b3906a745ee451d37b35bbc583d6b9")
 			println("SEND SMS!")
 			msg = "Alert! Your food is in danger of getting spoiled!"
-			twillo.sendMessage(msg);
+			twillo.sendMessage(msg)
 		}else{			
 			println("DON'T SEND SMS!")
 		}

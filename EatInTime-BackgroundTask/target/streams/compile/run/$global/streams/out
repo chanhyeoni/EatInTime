@@ -1,7 +1,7 @@
 [0m[[0minfo[0m] [0mRunning com.eatintime.backgroundtask.Main [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	/Users/changhyunlee/Desktop/Programming/Scala/EatInTime-BackgroundTask/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/changhyunlee/Desktop/Programming/EatInTime/EatInTime-BackgroundTask/target/scala-2.11/classes[0m
 [0m[[0mdebug[0m] [0m	/Users/changhyunlee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/changhyunlee/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.5.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/changhyunlee/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar[0m

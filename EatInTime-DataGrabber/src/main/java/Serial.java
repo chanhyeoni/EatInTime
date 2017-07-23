@@ -123,17 +123,17 @@ public class Serial implements SerialPortEventListener {
 
                 // // httpClient.getConnectionManager().shutdown();
 
-                // JSONObject obj = new JSONObject(inputLine);
-                // int ch4_level = obj.getInt("CH4");
+                JSONObject obj = new JSONObject(inputLine);
+                int ch4_level = obj.getInt("CH4");
 
-                // if (ch4_level > 1000){
-                //     TwilloAPI twillo = new TwilloAPI("ACfab4e5e91d80e6a7e5a75c46bae99557", "01b3906a745ee451d37b35bbc583d6b9");
-                //     System.out.println("SEND SMS to " + userPhoneNumber);
-                //     String msg = "Alert! Your food is in danger of getting spoiled!";
-                //     twillo.sendMessage(userPhoneNumber, msg);                    
-                // }else{
-                //     System.out.println("DON'T SEND SMS!");
-                // }
+                if (ch4_level > 1000){
+                    TwilloAPI twillo = new TwilloAPI("ACfab4e5e91d80e6a7e5a75c46bae99557", "01b3906a745ee451d37b35bbc583d6b9");
+                    System.out.println("SEND SMS to " + userPhoneNumber);
+                    String msg = "Alert! Your food is in danger of getting spoiled!";
+                    twillo.sendMessage(userPhoneNumber, msg);                    
+                }else{
+                    System.out.println("DON'T SEND SMS!");
+                }
 
             } catch (Exception e) {
                 System.err.println(e.toString());
