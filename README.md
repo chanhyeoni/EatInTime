@@ -29,13 +29,15 @@ Go to the folder IntelHackArduino and open the sketch file. Then, upload the ske
 
 Other software<br />
 Open the terminal or any window that you can type the command with. Run the following command:
-'''
-	./dataGrabber.sh
-'''
+
+```
+    ./dataGrabber.sh
+```
 
 You will see the input prompt message to type your phone number to receive the alert message. Type your ten-digit phone number without any dash line.
-'''
-	Enter your phone number (no '-') :    
-'''
+
+```
+    Enter your phone number (no '-') :    
+```
 
 You may use any food container you like or have. Make sure the sensor connected to the board is inside the food container. And test it with both fresh food and the food that you would like to throw into garbage
