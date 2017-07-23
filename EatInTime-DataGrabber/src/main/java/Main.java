@@ -5,7 +5,7 @@ public class Main{
 	public static void main(String[] args) {
 
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
-		System.out.println("Enter your phone number (no '-') : ");
+		System.out.print("Enter your phone number (no '-') :    ");
 		int phoneNumber = reader.nextInt(); // Scans the next token of the input as an int.
 		final String phoneNumberStr = "+1" + Integer.toString(phoneNumber);
 

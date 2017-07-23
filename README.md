@@ -25,20 +25,14 @@ Arduino<br />
 Go to the folder IntelHackArduino and open the sketch file. Then, upload the sketch.
 
 Other software<br />
-Open the terminal or any window that you can type the command with. Run all the three shell scripts in a separate window. If for some reason a permission error pops up, type the following.
+Open the terminal or any window that you can type the command with. Run the following command:
+'''
+	./dataGrabber.sh
+'''
 
-```
-	chmod +x 'the name of the script file'
-	...
-	chmod +x apiEndPoint.sh
-```
-
-run the script files as follows
-
-```
-	./apiEndPoint.sh
-	./dataGrabber.sh #must run this in a separate terminal
-	./backgroundTask.sh #must run this in a separate terminal
+You will see the input prompt message to type your phone number to receive the alert message. Type your ten-digit phone number without any dash line.
+'''
+	Enter your phone number (no '-') :    
 '''
 
 
