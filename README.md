@@ -20,7 +20,7 @@ Preapre the following: <br />
 Connect the USB to Type B cable to the Arduino board and to your computer. Then. mount the Base Shield on top of the microcontroller board. Lastly, connect the gas sensor to the I2C port of the Base Shield.
 ![alt text](https://github.com/chanhyeoni/EatInTime/blob/master/Screen%20Shot%202017-07-23%20at%202.50.01%20PM.png)
 
-The wire diagram is as follows:
+The wire diagram is as follows:<br />
 ![alt text](https://github.com/chanhyeoni/EatInTime/blob/master/Screen%20Shot%202017-07-23%20at%205.00.54%20PM.png)
 
 ### Run the code
